@@ -1,10 +1,9 @@
-## Front-end components
+
+
 ##### Bower Package List
 * [Jquery](https://github.com/jquery/jquery)
 * [Modernizr](http://modernizr.com/)
 
-### Gulp
-[Gulp](http://gulpjs.com) for front-end development automated tasks. Check link for more information.
 ##### Gulp Package list
 * [gulp-util](https://github.com/gulpjs/gulp-util)
 * [gulp-clean](https://github.com/peter-vilja/gulp-clean)
