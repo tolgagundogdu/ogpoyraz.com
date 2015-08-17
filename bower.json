@@ -1,0 +1,25 @@
+{
+  "name": "empty",
+  "version": "0.0.0",
+  "homepage": "empty",
+  "authors": [
+    "OGPoyraz <omergoktugpoyraz@gmail.com>"
+  ],
+  "description": "empty",
+  "main": "bower.json",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3",
+    "blockui": "*",
+    "stats.js": "*",
+    "jquery-validation": "~1.14.0"
+  }
+}

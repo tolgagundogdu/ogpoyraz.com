@@ -1,0 +1,53 @@
+.btn {
+    padding: 10px 25px;
+    background-color: #0061a2;
+    height: 45px;
+    border: 0;
+    color: #FFF;
+    font-family: 'Droid Sans' serif;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.g-recaptcha {
+    font-family: 'Open Sans' serif !important;
+    > div {
+        > div {
+            width: 100%;
+        }
+    }
+}
+
+#g-recaptcha {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.form-control.error {
+    border-color: #fe3a68;
+}
+
+label.error {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color: #fe3a68;
+}
+
+
+#thank-you{
+    color: #3aa935;
+    display: none;
+}
+#problem-sending-mail{
+    color: #fe3a68;
+    display: none;
+}

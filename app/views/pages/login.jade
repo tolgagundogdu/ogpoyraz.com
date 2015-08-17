@@ -1,0 +1,23 @@
+extends ../layouts/layout.jade
+block content
+	article.content
+		section
+			.container
+				.col-md-2
+					h2.text-right.scd--header.text-left-xs.text-left-sm
+				.col-md-8
+					.col-xs-12.p0
+						p.entry.text-left.mb30 Please enter your correct informations in the boxes below. If you dont remember/lost infos 
+							a(href="/contact") contact me.
+					.col-xs-12.col-xs-offset-0.col-md-10.col-md-offset-1.col-lg-8.col-lg-offset-2
+						form(method="POST",action="/login")
+							.form-group
+								input#username.form-control(type='text',name='username', placeholder='Account')
+							.form-group
+								input#password.form-control(type='password',name='password', placeholder='Password')
+							.form-group
+								#g-recaptcha
+								//- .g-recaptcha(data-sitekey="6LdrYgsTAAAAAFAcn8OH0xm7aJuaY5KqyqupNWIE",data-size="335",data-language="en-GB")
+							button.btn.btn-primary(type='submit') Login
+block scripts
+	script(src='https://www.google.com/recaptcha/api.js?hl=en&onload=onloadCallback&render=explicit',async='async',defer='defer')

@@ -1,0 +1,10 @@
+article.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    section {
+        margin-bottom: 50px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

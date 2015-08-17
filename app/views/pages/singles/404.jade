@@ -1,0 +1,13 @@
+extends ../../layouts/layout.jade
+block content
+	article.content
+		section#about-me
+			.container
+				.col-md-2
+					h2.text-right.scd--header.text-left-xs.text-left-sm(style="font-size:40px;margin-top:2px;") 404
+				.col-md-8
+					p.text-left.entry.mb30(style="color:#0061a2;font-size:40px;") Hey this page doesnt exists! 
+					iframe.mb20(width='560', height='500', src='http://www.youtube.com/embed/SIaFtAKnqBU?vq=hd720&rel=0&showinfo=0&controls=0&iv_load_policy=3&loop=1&playlist=SIaFtAKnqBU&modestbranding=1&autoplay=1', frameborder='0', allowfullscreen='')
+					p.text-left But dont worry you can head back to homepage 
+						a(href="/") here.
+block scripts

@@ -1,0 +1,16 @@
+doctype
+html
+	head
+		block title
+			title Ömer Göktuğ Poyraz - Personal Website
+		include metaTags
+		include favicon
+	body
+		include header
+		block content
+		include footer
+script(src='/scripts/plugins.min.js')
+script(src='http://threejs.org/build/three.min.js')
+script(src='/scripts/trackball.js')
+script(src='/scripts/main.js')
+block scripts

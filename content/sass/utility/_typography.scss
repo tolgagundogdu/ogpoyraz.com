@@ -1,0 +1,29 @@
+.scd--header {
+    color: $gold;
+    font-family: 'Droid Sans' sans;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.thrd--header {
+    color: $blue;
+    font-family: 'Droid Sans' sans;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 97, 162, 0.1);
+}
+
+p {
+    color: $gray;
+    font-family: 'Open Sans' sans;
+    font-size: 15px;
+    &.entry {
+        color: #0061a2;
+        font-weight: 300;
+        font-family: 'Open Sans';
+        font-size: 20px;
+    }
+}

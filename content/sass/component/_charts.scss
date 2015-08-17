@@ -1,0 +1,141 @@
+.chart {
+    display: table;
+    margin-bottom: 20px;
+    img.logo {
+        width: 70px;
+        display: table-cell;
+    }
+    .description {
+        width: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 20px;
+        h3.title {
+            color: #0061a2;
+            font-family: 'Droid Sans' sans;
+            font-size: 16px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+        .bar {
+            height: 20px;
+            width: 100%;
+            background-color: rgba($blue, 0.2);
+            position: relative;
+            border-radius: 5px;
+            span {
+                content: '';
+                position: absolute;
+                height: 20px;
+                background-color: $blue;
+                -webkit-transition: width 1s ease-in-out;
+                -moz-transition: width 1s ease-in-out;
+                -o-transition: width 1s ease-in-out;
+                transition: width 1s ease-in-out;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+        }
+    }
+}
+
+.child-chart {
+    display: table;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    img.logo {
+        width: 50px;
+        display: table-cell;
+    }
+    .description {
+        width: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 20px;
+        h3.title {
+            color: #0061a2;
+            font-family: 'Droid Sans' sans;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .bar {
+            height: 20px;
+            width: 100%;
+            background-color: rgba($blue, 0.2);
+            position: relative;
+            border-radius: 3px;
+            span {
+                content: '';
+                position: absolute;
+                height: 20px;
+                background-color: $blue;
+                -webkit-transition: width 1s ease-in-out;
+                -moz-transition: width 1s ease-in-out;
+                -o-transition: width 1s ease-in-out;
+                transition: width 1s ease-in-out;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+        }
+    }
+}
+
+.styled meter {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 20px;
+    /* For Firefox */
+    background: #EEE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+    border-radius: 3px;
+}
+
+
+/* WebKit */
+
+.styled meter::-webkit-meter-bar {
+    background: #EEE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+    border-radius: 3px;
+}
+
+.styled meter::-webkit-meter-optimum-value,
+.styled meter::-webkit-meter-suboptimum-value,
+.styled meter::-webkit-meter-even-less-good-value {
+    border-radius: 3px;
+}
+
+.styled meter::-webkit-meter-optimum-value {
+    background: #3aa935;
+}
+
+.styled meter::-webkit-meter-suboptimum-value {
+    background: #FFDB1A;
+}
+
+.styled meter::-webkit-meter-even-less-good-value {
+    background: #fe3a68;
+}
+
+
+/* Firefox */
+
+.styled meter::-moz-meter-bar {
+    border-radius: 3px;
+}
+
+.styled meter:-moz-meter-optimum::-moz-meter-bar {
+    background: #3aa935;
+}
+
+.styled meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background: #FFDB1A;
+}
+
+.styled meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+    background: #fe3a68;
+}
+
