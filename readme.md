@@ -1,5 +1,8 @@
 ##OGPoyraz.com
-You can modify and use it like your own. Feel free to contact me at omergoktugpoyraz@gmail.com
+You can modify and use it like your own.
+I'm allways open for advice, question, request. Feel free to contact me at omergoktugpoyraz@gmail.com
+You may find lot of useless css/scss, I'll take care them soon.
+Peace
 
 #### Bower Package List
 * [Jquery](https://github.com/jquery/jquery)
