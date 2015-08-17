@@ -38,11 +38,11 @@ Peace
 forever start app/app.js
 ```
 Go ahead and hit [http://localhost:8080/](http://localhost:8080/)
-#### * Restarting local server:
+#### * Restart local server:
 ```sh
 forever restart app/app.js
 ```
-#### * Stoping local server:
+#### * Stop local server:
 ```sh
 forever stop app/app.js
 ```
