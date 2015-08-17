@@ -48,10 +48,9 @@ forever stop app/app.js
 ```
 
 ## Front-end development enviroment
-#### 1. If you are working on scss or js files, you should install gulp and bower first
+#### 1. If you are working on scss or js files, you should install gulp first
 ```sh
 [sudo] npm install --global gulp
-[sudo] npm install --global bower
 ```
 #### 2. After installing gulp and bower you can run 
 ```sh
