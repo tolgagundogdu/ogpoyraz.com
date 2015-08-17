@@ -1,3 +1,6 @@
+##OGPoyraz.com
+You can modify and use it like your own. Feel free to contact me at omergoktugpoyraz@gmail.com
+
 #### Bower Package List
 * [Jquery](https://github.com/jquery/jquery)
 * [Modernizr](http://modernizr.com/)
