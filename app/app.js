@@ -120,4 +120,4 @@ app.get('/contact', function(req, res) {
 app.get('*', function(req, res) {
     res.render('pages/singles/404');
 });
-app.listen(80);
+app.listen(8080);
