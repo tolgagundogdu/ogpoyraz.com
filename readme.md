@@ -1,10 +1,10 @@
-
-
-##### Bower Package List
+#### Bower Package List
 * [Jquery](https://github.com/jquery/jquery)
 * [Modernizr](http://modernizr.com/)
+* [Stats.js](https://github.com/mrdoob/stats.js/)
+* [Jquery Validation](http://jqueryvalidation.org/)
 
-##### Gulp Package list
+#### Gulp Package list
 * [gulp-util](https://github.com/gulpjs/gulp-util)
 * [gulp-clean](https://github.com/peter-vilja/gulp-clean)
 * [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
